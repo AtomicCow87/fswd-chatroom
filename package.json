@@ -16,7 +16,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start": "node application.js"
+    "start": "node ./application.js"
   },
   "version": "0.1.0",
   "devDependencies": {
