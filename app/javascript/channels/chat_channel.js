@@ -1,7 +1,7 @@
 import consumer from "./consumer"
 import $ from 'jquery';
 
-import { indexChats } from "..lib/requests.js"
+import { indexChats } from "../lib/requests.js"
 
 consumer.subscriptions.create("ChatChannel", {
   connected() {
